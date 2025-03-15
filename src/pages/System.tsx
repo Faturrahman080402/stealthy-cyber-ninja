@@ -1,9 +1,8 @@
-
 import React, { useState } from 'react';
 import DashboardLayout from '@/components/layout/DashboardLayout';
 import { 
   Cpu, Database, Server, HardDrive, Loader2, RefreshCw,
-  Download, UploadCloud, AlertCircle, CheckCircle2, Memory,
+  Download, UploadCloud, AlertCircle, CheckCircle2, Chip,
   NetworkIcon, Shield, Clock, Terminal, Cable
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -138,7 +137,7 @@ const System = () => {
         <SystemResourceCard
           title="Memory Usage"
           value={systemResources.memory}
-          icon={<Memory className="w-5 h-5" />}
+          icon={<Chip className="w-5 h-5" />}
           chipColor="purple"
         />
         
@@ -400,7 +399,6 @@ const System = () => {
   );
 };
 
-// Helper component for system resource cards
 const SystemResourceCard = ({ title, value, icon, chipColor }) => {
   const getColorClasses = (color) => {
     switch (color) {
