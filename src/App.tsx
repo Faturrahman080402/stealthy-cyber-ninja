@@ -11,6 +11,8 @@ import Logs from "./pages/Logs";
 import Devices from "./pages/Devices";
 import Alerts from "./pages/Alerts";
 import System from "./pages/System";
+import Telegram from "./pages/Telegram";
+import Settings from "./pages/Settings";
 
 const queryClient = new QueryClient();
 
@@ -27,6 +29,8 @@ const App = () => (
           <Route path="/devices" element={<Devices />} />
           <Route path="/alerts" element={<Alerts />} />
           <Route path="/system" element={<System />} />
+          <Route path="/telegram" element={<Telegram />} />
+          <Route path="/settings" element={<Settings />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
