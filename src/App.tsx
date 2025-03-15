@@ -8,6 +8,9 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Monitoring from "./pages/Monitoring";
 import Logs from "./pages/Logs";
+import Devices from "./pages/Devices";
+import Alerts from "./pages/Alerts";
+import System from "./pages/System";
 
 const queryClient = new QueryClient();
 
@@ -21,6 +24,9 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/monitoring" element={<Monitoring />} />
           <Route path="/logs" element={<Logs />} />
+          <Route path="/devices" element={<Devices />} />
+          <Route path="/alerts" element={<Alerts />} />
+          <Route path="/system" element={<System />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
