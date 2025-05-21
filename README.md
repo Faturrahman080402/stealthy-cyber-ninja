@@ -1,69 +1,74 @@
-# Welcome to your Lovable project
+# Stealthy Cyber Ninja
 
-## Project info
+**Stealthy Cyber Ninja** is a modern web application designed to provide a sleek and efficient platform for users. Built with contemporary web development tools, it offers a responsive and user-friendly interface suitable for various applications.
 
-**URL**: https://lovable.dev/projects/770606a1-be6f-49f7-be28-6ebf6cc106a7
+## 🧠 Project Purpose
 
-## How can I edit this code?
+The primary aim of Stealthy Cyber Ninja is to deliver a streamlined and intuitive user experience through a clean design and modular architecture. It serves as a foundation for applications requiring a stealthy and efficient interface.
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+- ⚡ **Rapid Development** with [Vite](https://vitejs.dev/)
+- 🎨 **Responsive Design** using [Tailwind CSS](https://tailwindcss.com/)
+- 🧱 **Modular Architecture** with TypeScript
+- 🌐 **Editable via [Lovable.dev](https://lovable.dev/)**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/770606a1-be6f-49f7-be28-6ebf6cc106a7) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
+## 🛠️ Technologies Used
 
 - Vite
 - TypeScript
-- React
-- shadcn-ui
 - Tailwind CSS
+- PostCSS
+- Lovable.dev integration
 
-## How can I deploy this project?
+## 📁 Project Structure
 
-Simply open [Lovable](https://lovable.dev/projects/770606a1-be6f-49f7-be28-6ebf6cc106a7) and click on Share -> Publish.
+```
+stealthy-cyber-ninja/
+├── public/                 # Static assets
+├── src/                    # Source code
+├── components.json         # Component definitions for Lovable.dev
+├── index.html              # HTML entry point
+├── tailwind.config.ts      # Tailwind CSS configuration
+├── tsconfig.json           # TypeScript configuration
+├── vite.config.ts          # Vite build configuration
+├── package.json            # Project dependencies and scripts
+└── README.md               # Project documentation
+```
 
-## I want to use a custom domain - is that possible?
+## ⚙️ Getting Started
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+To run the project locally:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Faturrahman080402/stealthy-cyber-ninja.git
+cd stealthy-cyber-ninja
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
+
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:3000`.
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repository and submit a pull request with your improvements.
+
+## 📄 License
+
+This project is currently not licensed. For usage and modification rights, please contact the repository owner.
+
+---
+
+**GitHub:** [Faturrahman080402/stealthy-cyber-ninja](https://github.com/Faturrahman080402/stealthy-cyber-ninja)
